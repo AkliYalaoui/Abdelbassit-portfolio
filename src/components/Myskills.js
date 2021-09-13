@@ -16,7 +16,7 @@ const Myskills = () => {
       <div id="my-skills"></div>
       <section
         style={{
-          backgroundImage: "url('./flutter.png')",
+          backgroundImage: "url('./assets/flutter.png')",
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -36,7 +36,7 @@ const Myskills = () => {
           >
             <img
               className="object-cover h-full w-full"
-              src="./phone1.png"
+              src="./assets/phone1.png"
               alt="skills displayed inside a phone"
             />
             <div className="grid grid-cols-2 gap-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

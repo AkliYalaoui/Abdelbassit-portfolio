@@ -11,7 +11,7 @@ const AboutMe = () => {
         <article className="flex flex-wrap items-center justify-center mt-4">
           <img
             className="h-40 w-40 rounded-full"
-            src="./chelfi2.jpg"
+            src="./assets/chelfi2.jpg"
             alt="abdelbassit face"
           />
           <ul className="space-y-4 p-4 min-w-max">

@@ -10,7 +10,7 @@ const Header = () => {
     <header
       className="min-h-screen relative"
       style={{
-        backgroundImage: "url('./chelfi.png')",
+        backgroundImage: "url('./assets/chelfi.png')",
         backgroundAttachment: "fixed",
         backgroundPosition: "top right",
         backgroundSize: "cover",
