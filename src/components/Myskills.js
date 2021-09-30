@@ -6,9 +6,9 @@ import {
   SiMysql,
   SiHtml5,
   SiCss3,
+  SiAdobexd
 } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
-import { RiTeamLine } from "react-icons/ri";
 
 const Myskills = () => {
   return (
@@ -69,8 +69,8 @@ const Myskills = () => {
                 <h6 className="text-sm">Css 3</h6>
               </div>
               <div className="text-gray-600 flex justify-center items-center flex-col">
-                <RiTeamLine fontSize="25px" color="purple" />
-                <h6 className="text-sm">TeamWork</h6>
+                <SiAdobexd fontSize="25px" color="purple" />
+                <h6 className="text-sm">ui/ux</h6>
               </div>
             </div>
           </div>

@@ -18,11 +18,11 @@ const Carousel = ({ images, source }) => {
 
   return (
     <div className="border-b border-gray-300">
-      <div className="h-44 bg-gray-200">
+      <div className="h-96 bg-gray-200">
         <img
           src={source + images[id]}
           alt="project preview"
-          className="object-contain h-full"
+          className="object-contain h-full w-full"
         />
       </div>
       <div className="flex justify-center items-center p-2 space-x-2">

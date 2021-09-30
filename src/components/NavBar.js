@@ -1,7 +1,7 @@
 import {
   FaGithub,
   FaTwitter,
-  FaInstagram,
+  FaLinkedin,
   FaFacebook,
   FaRegUser,
 } from "react-icons/fa";
@@ -56,7 +56,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/basset123456"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,8 +64,12 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <FaInstagram />
+            <a
+              href="https://www.linkedin.com/in/abdelbassit-abed-meraim-909b54174/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
             </a>
           </li>
           <li>

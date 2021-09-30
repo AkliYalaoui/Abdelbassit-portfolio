@@ -6,7 +6,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaFacebook,
-  FaHeart,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const ContactMe = () => {
@@ -58,6 +58,19 @@ const ContactMe = () => {
               </li>
               <li>
                 <a
+                  href="https://www.linkedin.com/in/abdelbassit-abed-meraim-909b54174/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center flex-wrap  space-x-2"
+                >
+                  <span>
+                    <FaLinkedin />
+                  </span>
+                  <span>Abdelbassit Abed Meraim</span>
+                </a>
+              </li>
+              <li>
+                <a
                   className="flex items-center flex-wrap  space-x-2"
                   href="https://www.facebook.com/basset.abedmeraim"
                   target="_blank"
@@ -72,20 +85,20 @@ const ContactMe = () => {
               <li>
                 <a
                   className="flex items-center flex-wrap space-x-2"
-                  href="https://www.facebook.com/basset.abedmeraim"
+                  href="https://www.instagram.com/basset_ab/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span>
                     <FaInstagram color="#c32aa3" />
                   </span>
-                  <span>Abdelbassit Abedmeraim</span>
+                  <span>Bassit Ab</span>
                 </a>
               </li>
               <li>
                 <a
                   className="flex items-center flex-wrap space-x-2"
-                  href="https://www.facebook.com/basset.abedmeraim"
+                  href="https://twitter.com/basset123456"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -140,10 +153,18 @@ const ContactMe = () => {
             className="flex justify-center items-center space-x-1 p-8 pt-4 border-t"
             style={{ borderColor: "#555" }}
           >
-            <p>Made with</p>
-            <span>
-              <FaHeart color="red" />
-            </span>
+            <p>
+              Made by{" "}
+              <a
+                style={{ color: "#42d0fd" }}
+                className="hover:underline"
+                href="https://akliyalaoui.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Akli Yalaoui
+              </a>
+            </p>
             <span>. &copy; {new Date().getFullYear()}</span>
           </footer>
         </div>

@@ -24,7 +24,7 @@ const AboutMe = () => {
             <li className="flex items-start space-x-3">
               <IoSchool color="#42d0fd" fontSize="22px" />
               <span>
-                Fourth year at <strong>ESI ex INI</strong>.
+                Fourth year student (SIT) at <strong>ESI ex INI</strong>.
               </span>
             </li>
             <li className="flex items-start space-x-3">
@@ -41,7 +41,8 @@ const AboutMe = () => {
           Hey, it's Abdelbassit Abed-meraim, I am 21 years old flutter developer
           based in <strong>Chlef</strong>.<br />
           I'm a very <strong>passionate</strong> <strong>fast</strong> learner
-          person with <strong>teamwork</strong> experience.
+          person. I have a good experience with mobile developement and I am
+          open to new opportunities
         </p>
       </section>
     </>

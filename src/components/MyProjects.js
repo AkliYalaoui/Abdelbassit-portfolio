@@ -10,7 +10,7 @@ const MyProjects = () => {
         <H2>#### My Projects : </H2>
         <div className="mt-6 flex flex-wrap items-stretch justify-center gap-4">
           {projects.map((prj, id) => (
-            <article key={id} className="shadow-2xl w-72">
+            <article key={id} className="shadow-2xl w-80">
               <Carousel images={prj.images} source={prj.folder} />
               <h3 className="text-base font-semibold text-center p-2">
                 {prj.title}
@@ -28,7 +28,7 @@ const MyProjects = () => {
                 </p>
               </div>
 
-              <div>
+              <div className="flex items-center justify-between">
                 <h4 className="border-l-4 border-gray-800 ml-2 p-1">
                   Github repo
                   <span className="font-extrabold text-gray-800"> :</span>{" "}
@@ -36,11 +36,11 @@ const MyProjects = () => {
                 <a
                   style={{ color: "#42d0fd" }}
                   className="underline py-2 pr-2 pl-5"
-                  href={prj.github}
-                  target="_blank"
+                  href={prj.githubLink}
+                  target={`${prj.githubLink === "#" ? "_self":"_blank"}`}
                   rel="noopener noreferrer"
                 >
-                  prj.github
+                  {prj.githubTitle}
                 </a>
               </div>
             </article>
