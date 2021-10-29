@@ -21,4 +21,33 @@ export const projects = [
     overview:
       "An app that aims to digitize all the work in dental universities, to help them collect data of their patients easily and store it with the best way possible",
   },
+  {
+    folder: "./assets/project2/",
+    images: [
+      "main1.jpg",
+      "main2.jpg",
+      "main3.jpg",
+      "main4.jpg",
+      "main5.jpg",
+      "main6.jpg",
+      "main7.jpg",
+      "main8.jpg",
+      "main9.jpg",
+      "main10.jpg",
+      "main11.jpg",
+      "main12.jpg",
+      "main13.jpg",
+      "main14.jpg",
+      "main15.jpg",
+      "main16.jpg",
+      "main17.jpg",
+      "main18.jpg",
+      "main19.jpg",
+    ],
+    githubLink: "#",
+    githubTitle: "Private repo",
+    title: "Site management",
+    overview:
+      "This project is for an entrepreneur to help him manage his work. There are two applications, one for his site managers where they can add all the transactions they did such as buying food and paying simple workers. The second application is an admin app for the entrepreneur, he can control all their transactions sorted by site and type, he can also see statistics about all their transactions",
+  },
 ];
