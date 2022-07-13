@@ -24,7 +24,7 @@ const AboutMe = () => {
             <li className="flex items-start space-x-3">
               <IoSchool color="#42d0fd" fontSize="22px" />
               <span>
-                Fourth year student (SIT) at <strong>ESI ex INI</strong>.
+                Final year student (SIT) at <strong>ESI ex INI</strong>.
               </span>
             </li>
             <li className="flex items-start space-x-3">
